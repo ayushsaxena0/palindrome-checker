@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', monospace, serif;
+  background-color: #0A0A23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.form {
+  background-color: white;
+  width: 450px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+#text-input {
+  width: 300px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #5A01A7;
+}
+
+#check-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  width: 100px;
+  background-color: #5A01A7;
+  color: white;
+}
+
+#result {
+  font-size: 20px;
+}
